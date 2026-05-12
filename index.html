@@ -12,28 +12,35 @@
 <body>
   <div class="weather-box">
     <header>
-        <form >
-            <input type="search" placeholder="Enter a City.." required/>
-            <input type="submit" value="Search">
+        <form class="search-form">
+            <input type="search" placeholder="Enter a City.." class="search-input" required/>
+            <input type="submit" value="Search" class="search-button">
         </form>
-
+    </header>
         <main>
+            <div class="weather-data">
             <div>
-         <h1>Polokwane</h1>  
-            <p>
+         <h1 class="weather-city"> Polokwane</h1>  
+            <p class="weather-details">
                 Tuesday 14:49, scattered clouds
                 <br />
-                Humidity: 66%, Wind: 3.13km/h
+                Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong> 
             </p> 
             </div>
-            <div>
-            🌤️ 12°C
+            <div class="weather-temperature-container">
+                <div class="weather-icon">🌤️</div> 
+                <div class="weather-temp">12</div> 
+                <div class="weather-unit">°C</div>
+            </div>
             </div>
         </main>
     
-    <footer>Coded by <a href="https://github.com/Ntsibiseng-4" target="_blank">Ntsibiseng</a> and is hosted on <a href="https://github.com/Ntsibiseng-4/FinalWeatherApp_Project" target="_blank">Open-Source GitHub</a>
-    and website hosted <a href="https://weatherapp-byntsibiseng.netlify.app/" target="_blank">on Netlify</a></footer>
-    </header>
+    <footer>
+        This project was coded by
+        <a href="https://github.com/Ntsibiseng-4" target="_blank">Ntsibiseng</a>,
+        is<a href="https://github.com/Ntsibiseng-4/FinalWeatherApp_Project" target="_blank">Open-Source GitHub</a>
+    and website hosted <a href="https://weatherapp-byntsibiseng.netlify.app/" target="_blank">on Netlify</a>
+    </footer>
   </div>
 </body>
 </html>
