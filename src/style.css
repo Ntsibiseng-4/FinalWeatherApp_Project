@@ -1,0 +1,16 @@
+body{
+    background-color: #f9f7fe;
+    font-family: "Open Sans", sans-serif;
+}
+
+.weather-box{
+    background: linear-gradient(to bottom, 
+    rgb(43, 50, 178) 0%, 
+    rgb(20, 136, 204) 100%);
+    color: rgb(245, 243, 243);
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+    padding: 50px;
+}
