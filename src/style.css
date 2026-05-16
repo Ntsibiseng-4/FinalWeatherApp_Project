@@ -13,7 +13,7 @@ a{
     rgb(43, 50, 178) 0%, 
     rgb(20, 136, 204) 100%);
     color: rgb(245, 243, 243);
-    max-width: 600px;
+    max-width: 750px;
     margin: 40px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
@@ -92,8 +92,28 @@ main{
 .weather-forecast{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 30px;
+    padding: 0.8em 0;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.20);
+    text-align: center;
 }
+
+.weather-day{
+    border-right: 1px solid rgba(255,255,255,0.3);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    justify-content: center;
+}
+
+.weather-day:last-child{
+    border-right: none;
+}
+
 
 .weather-forecast-date{
     text-align: center;
@@ -103,7 +123,7 @@ main{
 }
 
 .weather-forecast-icon{
-    font-size: 38px;
+    width: 30px;
     text-align: center;
 }
 
